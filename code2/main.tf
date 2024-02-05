@@ -1,7 +1,7 @@
 resource "aws_iam_group" "developers" {
-  name = "developer"
+  name = "ansiblegroup"
 }
 
 resource "aws_iam_user" "lb" {
-  name = "pruf2050"
+  name = "ansible"
 }
